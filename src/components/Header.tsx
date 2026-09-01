@@ -152,13 +152,13 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* 2. MAIN NAVIGATION BAR */}
-      <div className={`bg-white/95 backdrop-blur-md transition-all duration-300 border-b border-slate-200/80 shadow-sm ${isScrolled ? 'py-2.5 shadow-md' : 'py-3'}`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <div className={`bg-white/95 backdrop-blur-md transition-all duration-300 border-b border-slate-200/80 shadow-sm ${isScrolled ? 'pt-2 pb-1.5 shadow-md' : 'pt-3 pb-2'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-between gap-y-2">
           
           {/* Logo & School Branding */}
           <div 
             onClick={() => handleNavClick('home')} 
-            className="flex items-center space-x-3 cursor-pointer group"
+            className="order-1 flex items-center space-x-3 cursor-pointer group"
           >
             {/* Authentic Crest Representation */}
             <div className="w-12 h-12 sm:w-14 sm:h-14 bg-[#0a1d37] rounded-xl flex items-center justify-center p-1.5 shadow-md border-2 border-amber-400/80 group-hover:shadow-amber-500/20 transition-all duration-300 relative overflow-hidden">
@@ -185,7 +185,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center space-x-1 xl:space-x-2 text-[13px] xl:text-sm font-semibold text-slate-700">
+          <nav className="order-3 hidden lg:flex w-full items-center justify-center space-x-2 xl:space-x-4 border-t border-slate-200/80 pt-2 text-[13px] xl:text-sm font-semibold text-slate-700">
             {navItems.map((item) => {
               const isActive = activeSection === item.id;
               const hasDropdown = item.dropdown && item.dropdown.length > 0;
@@ -236,7 +236,7 @@ export const Header: React.FC<HeaderProps> = ({
           </nav>
 
           {/* Right Action Buttons */}
-          <div className="hidden sm:flex items-center space-x-2">
+          <div className="order-2 hidden sm:flex items-center space-x-2">
             <a
               href={SCHOOL_INFO.erpUrl}
               target="_blank"
@@ -274,7 +274,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Mobile Menu Trigger */}
-          <div className="flex items-center space-x-2 lg:hidden">
+          <div className="order-2 flex items-center space-x-2 lg:hidden">
             <button
               onClick={onOpenApplyModal}
               className="bg-amber-500 hover:bg-amber-600 text-navy-950 font-bold text-xs px-3 py-1.5 rounded-md shadow-sm sm:hidden"
