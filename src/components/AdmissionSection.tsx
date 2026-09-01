@@ -392,7 +392,7 @@ export const AdmissionSection: React.FC<AdmissionSectionProps> = ({
                 </a>
 
                 <a 
-                  href={`https://wa.me/919893461015?text=Hello%20MP%20Convent%20School,%20I%20want%20to%20enquire%20about%20admissions%20for%20session%202026-27`}
+                  href={`https://wa.me/918989627828?text=Hello%20MP%20Convent%20School,%20I%20want%20to%20enquire%20about%20admissions%20for%20session%202026-27`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 bg-emerald-600/30 hover:bg-emerald-600/40 p-3 rounded-xl border border-emerald-500/30 transition-colors"
