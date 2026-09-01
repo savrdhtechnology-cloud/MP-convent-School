@@ -50,7 +50,7 @@ export const Hero: React.FC<HeroProps> = ({
   return (
     <section 
       id="home" 
-      className="relative min-h-[580px] lg:min-h-[680px] flex items-center pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-hidden bg-[#08182b]"
+      className="relative min-h-[620px] lg:min-h-[760px] flex items-center pt-24 pb-16 lg:pt-48 lg:pb-24 overflow-hidden bg-[#08182b]"
       onMouseEnter={() => setIsAutoPlaying(false)}
       onMouseLeave={() => setIsAutoPlaying(true)}
     >
