@@ -194,7 +194,7 @@ export default function App() {
 
         {/* Floating WhatsApp */}
         <a
-          href={`https://wa.me/919893461015?text=Hello%20MP%20Convent%20School%20Bari,%20I%20have%20an%20admission%20enquiry`}
+          href={`https://wa.me/918989627828?text=Hello%20MP%20Convent%20School%20Bari,%20I%20have%20an%20admission%20enquiry`}
           target="_blank"
           rel="noopener noreferrer"
           className="w-12 h-12 rounded-full bg-emerald-600 text-white shadow-xl hover:bg-emerald-700 flex items-center justify-center transition-transform hover:scale-110"
