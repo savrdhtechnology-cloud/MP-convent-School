@@ -29,7 +29,7 @@ export const SCHOOL_INFO = {
   email: "mpconventbari@gmail.com",
   altEmail: "mpconventhsschool@gmail.com",
   website: "https://mpconventschool.com",
-  erpUrl: "https://mpcsbari.nexterp.in",
+  erpUrl: "https://mpconvent.nexterp.in/nlp/nlp/login",
   academicYear: "2026–27",
   admissionStatus: "ADMISSIONS OPEN FOR 2026-27 (NURSERY TO CLASS XII)",
   schoolTimings: "Monday – Saturday: 08:00 AM – 02:30 PM",
