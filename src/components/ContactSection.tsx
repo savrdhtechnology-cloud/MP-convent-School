@@ -51,7 +51,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
           </a>
 
           <a
-            href={`https://wa.me/919893461015?text=Hello%20MP%20Convent%20School%20Bari,%20I%20am%20enquiring%20about%20admissions`}
+            href={`https://wa.me/918989627828?text=Hello%20MP%20Convent%20School%20Bari,%20I%20am%20enquiring%20about%20admissions`}
             target="_blank"
             rel="noopener noreferrer"
             id="whatsapp-contact-btn"
