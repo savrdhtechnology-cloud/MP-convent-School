@@ -1,0 +1,6 @@
+{
+  "name": "MP Convent School - Bari, Raisen (M.P.)",
+  "description": "Official website of MP Convent School, Bari, Raisen (M.P.). Affiliated to CBSE, New Delhi (Affiliation No. 1030760, School Code: 50723). Admissions Open 2026-27.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
