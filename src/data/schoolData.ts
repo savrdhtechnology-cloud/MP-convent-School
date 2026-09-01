@@ -231,7 +231,7 @@ export const ACADEMIC_PROGRAMS = [
 
 export const LEADERSHIP: LeadershipMember[] = [
   {
-    name: "Mr. S.P. Dubey",
+    name: "Mr. Mahindra Pratap Dubey (M. P. Dubey)",
     designation: "Director",
     qualification: "Hari Om Gyan Ganga Shikshan Samiti",
     message: "Education is about awakening – awakening to the power and beauty that lies within all of us.",

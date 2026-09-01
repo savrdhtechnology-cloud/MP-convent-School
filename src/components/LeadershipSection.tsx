@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { LEADERSHIP } from '../data/schoolData';
 import { LeadershipMember } from '../types';
-import directorImg from '../assets/images/director_sp_dubey_1788238934709.jpg';
+import directorImg from '../assets/images/mahindra_pratap_dubey_original-v2.jpg';
 
 export const LeadershipSection: React.FC = () => {
   const [selectedLeader, setSelectedLeader] = useState<LeadershipMember | null>(null);

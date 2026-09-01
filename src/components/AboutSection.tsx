@@ -20,11 +20,11 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { SCHOOL_INFO, LEADERSHIP, ABOUT_PILLARS, GUIDING_VALUES, TIMELINE_HISTORY } from '../data/schoolData';
-import directorImg from '../assets/images/director_sp_dubey_1788238934709.jpg';
+import directorImg from '../assets/images/mahindra_pratap_dubey_original-v2.jpg';
 
 export const AboutSection: React.FC = () => {
   const [showFullHeritageModal, setShowFullHeritageModal] = useState(false);
-  const director = LEADERSHIP[0]; // Mr. S.P. Dubey, Director
+  const director = LEADERSHIP[0]; // Mr. Mahindra Pratap Dubey (M. P. Dubey), Director
 
   // Helper for Pillar Icons
   const getPillarIcon = (iconName: string) => {
@@ -111,8 +111,8 @@ export const AboutSection: React.FC = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-100 group">
               <img 
                 src={directorImg} 
-                alt="Mr. S.P. Dubey - Director, MP Convent School Bari" 
-                className="w-full h-[420px] sm:h-[480px] object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                alt="Mr. Mahindra Pratap Dubey (M. P. Dubey) - Director, MP Convent School Bari" 
+                className="w-full h-[460px] sm:h-[560px] object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#05162a]/95 via-[#05162a]/20 to-transparent"></div>
@@ -124,10 +124,10 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-base font-extrabold text-white tracking-wide">
-                    Mr. S.P. Dubey
+                    Mr. Mahindra Pratap Dubey
                   </h4>
                   <p className="text-xs font-semibold text-amber-400 uppercase tracking-wider">
-                    Director
+                    Director · M. P. Dubey
                   </p>
                 </div>
               </div>
